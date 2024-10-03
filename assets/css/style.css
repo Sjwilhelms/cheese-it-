@@ -39,24 +39,8 @@ h6 {
     color: var(--cream) !important;
 }
 
-.navbar-toggler {
-    border: none;
-    background-color: var(--eggplant);
+.navbar > .background-image{
     color: var(--cream);
-    outline: none;
-}
-
-.navbar-toggler-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after {
-    content: "";
-    color: var(--eggplant);
-    transition: transform 0.3s ease-in-out;
     border: none;
 }
 
