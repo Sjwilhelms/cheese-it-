@@ -31,9 +31,14 @@ body{
 #navbar-toggler{
     border: none;
 }
-.navbar-toggler-icon{
-    color: var(--cream) !important;
-}
+.navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color:var(--cream);
+    transition: transform 0.3s ease-in-out;
+  }
 
 /* carousel style */
 .carousel-container{
