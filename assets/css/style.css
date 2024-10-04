@@ -10,11 +10,9 @@ h4,
 h5,
 h6 {
     font-family: lobster;
-
 }
 
 /* colour palette HSL */
-
 :root {
     --tiffany-blue: hsla(173, 38%, 71%, 1);
     --tea-green: hsla(84, 55%, 83%, 1);
@@ -37,72 +35,66 @@ h6 {
     font-size: 1.5rem;
 }
 
+
 .nav-link {
     color: var(--cream) !important;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.navbar>.background-image {
-    color: var(--cream);
+.navbar button {
     border: none;
 }
 
-/* carousel style */
-.carousel-container {
-    max-width: 1000px;
-    max-height: 1000px;
+/* main section */
+section {}
+
+. {
+    background-image: url(../images/carousel/pexels-nastyasensei-66707-821365.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
 }
 
-.carousel-container h5,
-p {
-    color: var(--cream);
-}
+.hero-image {
+    /* The image used */
+    background-image: url(../images/carousel/pexels-nastyasensei-66707-821365.jpg);
 
-.carousel-caption {
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 5px;
-    color: var(--cream);
-}
-
-.carousel {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 5px;
-    columns: var(--cream);
-}
-
-.carousel-control-prev-icon {
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 5px;
-    columns: var(--cream);
-}
-
-.carousel-item img {
+    /* Set a specific height */
+    height: 50%;
+    height: 50vh;
     border-radius: 5px;
 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-/* risk and benefits */
-.risks-and-benefits p {
-    color: var(--eggplant);
-}
-.container-benefits{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.container-risks{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.bg-section {
+    background-color: var(--cream);
+
 }
 
+.benefits-image {
+    background-image: url(../images/carousel/pexels-pixabay-302457.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-bottom: 150px;
+}
 
 /* footer style */
-
 .footer-container {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -111,5 +103,4 @@ p {
 
 .footer-container a {
     color: var(--cream);
-
 }
