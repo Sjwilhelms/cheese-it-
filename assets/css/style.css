@@ -10,6 +10,7 @@ h4,
 h5,
 h6 {
     font-family: lobster;
+
 }
 
 /* colour palette HSL */
@@ -33,13 +34,16 @@ h6 {
 
 .navbar-brand {
     color: var(--cream);
+    font-size: 1.5rem;
 }
 
 .nav-link {
     color: var(--cream) !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.navbar > .background-image{
+.navbar>.background-image {
     color: var(--cream);
     border: none;
 }
@@ -83,26 +87,19 @@ p {
 
 }
 
-/* card style */
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+/* risk and benefits */
+.risks-and-benefits p {
+    color: var(--eggplant);
+}
+.container-benefits{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container-risks{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.card {
-    width: 250px;
-    height: 350;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: var(--tiffany-blue);
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 
 /* footer style */
 
